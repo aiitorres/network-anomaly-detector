@@ -1,5 +1,11 @@
 # Network Anomaly Detector
 
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Machine Learning](https://img.shields.io/badge/machine%20learning-Isolation%20Forest-orange)
+![Dashboard](https://img.shields.io/badge/dashboard-Streamlit-red)
+
 A basic network anomaly detection project built with Python, pandas, scikit-learn, Isolation Forest, and Streamlit.
 
 The goal of this project is to analyze network flow data and identify anomalous behavior using machine learning. The model is trained with benign traffic and then used to detect flows that behave differently from normal network activity.
