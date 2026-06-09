@@ -76,7 +76,6 @@ network-anomaly-detector/
 │   ├── detect.py
 │   ├── metrics.py
 │   ├── plots.py
-│   ├── summary.py
 │   └── dashboard.py
 │
 ├── requirements.txt
