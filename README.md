@@ -128,7 +128,7 @@ Prediction values:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/network-anomaly-detector.git
+git clone https://github.com/aiitorres/network-anomaly-detector.git
 cd network-anomaly-detector
 ```
 
