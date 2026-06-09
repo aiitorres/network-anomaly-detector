@@ -167,7 +167,6 @@ python src/train.py
 python src/detect.py
 python src/metrics.py
 python src/plots.py
-python src/summary.py
 streamlit run src/dashboard.py
 ```
 
@@ -180,7 +179,6 @@ streamlit run src/dashboard.py
 | `src/detect.py`    | Detects anomalous network flows                 |
 | `src/metrics.py`   | Generates evaluation metrics                    |
 | `src/plots.py`     | Creates visual charts                           |
-| `src/summary.py`   | Generates a text summary of the analysis        |
 | `src/dashboard.py` | Launches the Streamlit dashboard                |
 
 ## Generated Outputs
@@ -191,7 +189,6 @@ After running the project, the following files are generated:
 reports/results.csv
 reports/anomalies.csv
 reports/metrics.txt
-reports/summary.txt
 reports/figures/
 ```
 
@@ -202,7 +199,6 @@ The most important output files are:
 | `results.csv` | Complete detection results      |
 | `anomalies.csv`  | Only the anomalous flows        |
 | `metrics.txt`   | Model evaluation metrics        |
-| `summary.txt`    | General summary of the analysis |
 | `figures/`       | Generated charts                |
 
 ## Dashboard
