@@ -65,9 +65,9 @@ network-anomaly-detector/
 │   └── columns.joblib
 │
 ├── reports/
-│   ├── resultados.csv
-│   ├── anomalias.csv
-│   ├── metricas.txt
+│   ├── results.csv
+│   ├── anomalies.csv
+│   ├── metrics.txt
 │   └── figures/
 │
 ├── src/
@@ -189,10 +189,10 @@ streamlit run src/dashboard.py
 After running the project, the following files are generated:
 
 ```text
-reports/resultados.csv
-reports/anomalias.csv
-reports/metricas.txt
-reports/resumen.txt
+reports/results.csv
+reports/anomalies.csv
+reports/metrics.txt
+reports/summary.txt
 reports/figures/
 ```
 
@@ -200,10 +200,10 @@ The most important output files are:
 
 | File             | Description                     |
 | ---------------- | ------------------------------- |
-| `resultados.csv` | Complete detection results      |
-| `anomalias.csv`  | Only the anomalous flows        |
-| `metricas.txt`   | Model evaluation metrics        |
-| `resumen.txt`    | General summary of the analysis |
+| `results.csv` | Complete detection results      |
+| `anomalies.csv`  | Only the anomalous flows        |
+| `metrics.txt`   | Model evaluation metrics        |
+| `summary.txt`    | General summary of the analysis |
 | `figures/`       | Generated charts                |
 
 ## Dashboard
@@ -229,15 +229,15 @@ streamlit run src/dashboard.py
 
 ### Main Dashboard
 
-![Dashboard](screenshots/dashboard-main.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### Detected Anomalies
 
-![Anomalies](screenshots/anomalies-table.png)
+![Anomalies](screenshots/anomalies.png)
 
 ### Anomalous Ports
 
-![Ports](screenshots/ports-chart.png)
+![Ports](screenshots/ports.png)
 
 ## Results
 
